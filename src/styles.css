@@ -1,0 +1,166 @@
+/*
+ Nunito Sans Font
+*/
+@import url("assets/css/nunitosans.css");
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #e6e6eb;
+}
+
+.form {
+  border-radius: 6px;
+  margin: 4em auto;
+  padding: 3em 2em 2em 2em;
+  background-color: #f6f6f6;
+  border: 1px solid #ebebeb;
+  box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.75);
+}
+
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  margin: 5px 0px !important;
+}
+
+/*------------------------
+     global widths
+  -------------------------*/
+
+.w-90 {
+  width: 90%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-85 {
+  width: 85%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-65 {
+  width: 65%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-45 {
+  width: 45%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-15 {
+  width: 15%;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.col,
+.col-1,
+.col-10,
+.col-11,
+.col-12,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9 {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+}
+
+.grey {
+  color: grey;
+}
+.error {
+  border: 1px solid red;
+}
+
+.font-size-20px {
+  font-size: 20px;
+}
+.font-size-35px {
+  font-size: 35px;
+}
+
+/* ant design modal  */
+
+.ant-modal-content {
+  background-color: #f6f6f6;
+  border: 0;
+  border-radius: 6px;
+}
+
+.ant-modal-header {
+  background-color: #f6f6f6;
+  border-radius: 6px;
+}
+
+.ant-modal-title {
+  font-weight: bold;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/*********LOADING DIRECTIVE**********/
+.mat-loading .mat-button-wrapper {
+  visibility: hidden;
+}
+
+.mat-loading .mat-progress-spinner {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 10px);
+}
+
+.mat-form-field-flex {
+  background-color: unset !important;
+}
+
+
+.spinner{
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}

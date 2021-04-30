@@ -1,0 +1,272 @@
+/*--------------------------------
+
+RAG Web Font
+Generated using nucleoapp.com
+
+-------------------------------- */
+@font-face {
+  font-family: "PLPR";
+  font-weight: normal;
+  font-style: normal;
+}
+/*------------------------
+	base class definition
+-------------------------*/
+.icon {
+  display: inline-block;
+  speak: none;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*------------------------
+  change icon size
+-------------------------*/
+/* relative units */
+.icon-sm {
+  font-size: 0.8em;
+}
+.icon-lg {
+  font-size: 1.2em;
+}
+/* absolute units */
+.icon-16 {
+  font-size: 16px;
+}
+.icon-32 {
+  font-size: 32px;
+}
+/*----------------------------------
+  add a square/circle background
+-----------------------------------*/
+.icon-bg-square,
+.icon-bg-circle {
+  padding: 0.35em;
+  background-color: #eee;
+}
+.icon-bg-circle {
+  border-radius: 50%;
+}
+/*------------------------------------
+  use icons as list item markers
+-------------------------------------*/
+.icon-ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+.icon-ul > li {
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.4;
+}
+.icon-ul > li > .icon {
+  margin-right: 0.4em;
+  line-height: inherit;
+}
+/*------------------------
+  spinning icons
+-------------------------*/
+.icon-is-spinning {
+  -webkit-animation: icon-spin 2s infinite linear;
+  -moz-animation: icon-spin 2s infinite linear;
+  animation: icon-spin 2s infinite linear;
+}
+@-webkit-keyframes icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes icon-spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@keyframes icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/*------------------------
+  rotated/flipped icons
+-------------------------*/
+.icon-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.icon-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.icon-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.icon-flip-y {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.icon-flip-x {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: scale(1, -1);
+  -moz-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+/*------------------------
+	icons
+-------------------------*/
+
+.icon-Activity-icon::before {
+  content: "\ea01";
+}
+
+.icon-Apps-icon::before {
+  content: "\ea02";
+}
+
+.icon-Arrow-icon::before {
+  content: "\ea03";
+}
+
+.icon-Calendar-icon::before {
+  content: "\ea04";
+}
+
+.icon-Check-list-icon::before {
+  content: "\ea05";
+}
+
+.icon-Check-mark-document-icon::before {
+  content: "\ea06";
+}
+
+.icon-Check-mark-icon::before {
+  content: "\ea07";
+}
+
+.icon-Clock-icon::before {
+  content: "\ea08";
+}
+
+.icon-Communication-icon::before {
+  content: "\ea09";
+}
+
+.icon-Copy-icon::before {
+  content: "\ea0a";
+}
+
+.icon-Dashboard-icon::before {
+  content: "\ea0b";
+}
+
+.icon-Delete-icon::before {
+  content: "\ea0c";
+}
+
+.icon-Excel-icon::before {
+  content: "\ea0d";
+}
+
+.icon-Filter-add-icon::before {
+  content: "\ea0e";
+}
+
+.icon-Filter-delete-icon::before {
+  content: "\ea0f";
+}
+
+.icon-Filter-icon::before {
+  content: "\ea10";
+}
+
+.icon-Floppy-icon::before {
+  content: "\ea11";
+}
+
+.icon-Focus-icon::before {
+  content: "\ea12";
+}
+
+.icon-Folder-icon::before {
+  content: "\ea13";
+}
+
+.icon-List-icon::before {
+  content: "\ea14";
+}
+
+.icon-People-icon::before {
+  content: "\ea15";
+}
+
+.icon-Plus-icon::before {
+  content: "\ea16";
+}
+
+.icon-Printer-add-icon::before {
+  content: "\ea17";
+}
+
+.icon-Printer-icon::before {
+  content: "\ea18";
+}
+
+.icon-Search-icon::before {
+  content: "\ea19";
+}
+
+.icon-Send-mail-icon::before {
+  content: "\ea1a";
+}
+
+.icon-Task-list-add-icon::before {
+  content: "\ea1b";
+}
+
+.icon-Tasks-icon::before {
+  content: "\ea1c";
+}
+
+.icon-Zoom-in-icon::before {
+  content: "\ea1d";
+}
+
+.icon-zoom-out-icon::before {
+  content: "\ea1e";
+}

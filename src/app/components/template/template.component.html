@@ -1,0 +1,31 @@
+<h3>Table component</h3>
+
+<overview
+  [tableData]="overviewData"
+  [tableColumns]="overviewHeaders"
+  [isFilterable]="true"
+  [isPageable]="true"
+  [isPartiallyLoading]="true"
+  [shrinkHeight]="true"
+  [containerHeight]="'400px'"
+  [paginationSizes]="[5, 10, 15]"
+  [defaultPageSize]="10"
+  [dataLength]="dataLength"
+  [isExportable]="true"
+  [exportFileName]="'FileName'"
+  [rowActionIcon]="'pageview'"
+  [scrollChunkSize]="15"
+  [getData]="getRepoIssues"
+  [overlayLoader]="false"
+  [noDataMessage]="'No data found satisfying the filter'"
+  [errorMessage]="'Error while fetching the data'"
+  [actionsHeaderText]="'Actions'"
+  [showDataMessageFirstPart]="'Showing '"
+  [showDataMessageSecondPart]="' results'"
+  [debounceTime]="600"
+  [showTableResultsBar]="true"
+  [showActionsHeaderText]="true"
+  [actionsHeaderText]="'Actions'"
+  (rowAction)="rowAction($event)"
+>
+</overview>
